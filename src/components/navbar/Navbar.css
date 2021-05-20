@@ -1,0 +1,39 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    width: 95%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-right {
+    min-width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-avatar {
+    border-radius: 50%;
+}
+
+@media(max-width: 650px) {
+    .navbar-container {
+        height: 75px;
+        margin-top: 16px;
+        width: 90%;
+    }
+
+    .navbar-logo {
+        height: 64px;
+        width: 64px;
+    }
+
+    .navbar-avatar {
+        height: 48px;
+        width: 48px;
+    }
+}
